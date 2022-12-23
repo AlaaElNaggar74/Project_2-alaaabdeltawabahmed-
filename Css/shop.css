@@ -1,0 +1,340 @@
+.shop{
+	margin:70px 0;
+	
+}
+
+.shop .container{
+	display:flex;
+	justify-content:space-between;
+	
+}
+
+.shop-all-two-select{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	flex-direction:row;
+	margin-bottom:50px;
+	
+}
+
+.shop-lower-part{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	flex-direction:row;
+	
+}
+
+.categories,
+.left-lower-side{
+	border:2px solid #ebebeb;
+
+}
+
+.shop-smaal-flex{
+	display:flex;
+	justify-content:space-between;
+	margin:10px 0;
+}
+
+
+.shop-left-sid{
+	width:150%;
+	padding:50px 0
+	
+}
+
+
+
+.left-lower-side{
+	padding:10px;
+	
+}
+
+.shop-right-sid{
+	padding:20px;
+	margin-left:30px 0px;
+	
+}
+
+.shop-seprate-div img{
+	width:100%;
+	
+}
+
+.shop-seprate-div{
+	text-align:center;
+	margin:10px 0;
+	border:2px solid #ebebeb;
+	width:240px;
+	box-shadow: 1px 1px 5px #ebebeb;
+	
+}
+
+.shop-lower-part a{
+	text-decoration:none;
+	
+}
+
+
+.shop-seprate-div h3{
+	color:#7a1fa2;
+
+}
+
+.shop-seprate-div p{
+	font-size:.9rem;
+	color:#b9b9b9;
+	margin:5px 0;
+	
+}
+
+.categories{
+	margin-bottom:20px;
+	padding:10px;
+	text-transform:uppercase;
+	
+}
+
+.categories h2{
+	margin-bottom:30px;
+	font-size:1.0rem;
+}
+
+
+.filter-pr{
+	margin-bottom:40px;
+	
+}
+
+
+.filter-pr h2{
+	margin-bottom:10px;
+	font-size:1.0rem;
+	text-transform:uppercase;
+}
+
+.size input{
+	margin-bottom:15px;
+	
+}
+
+.size h2{
+	margin-bottom:15px;
+	text-transform:uppercase;
+	font-size:1.0rem;
+	
+}
+
+.color li{
+	margin-bottom:15px;
+	margin-left:25px;
+	list-style-type:none;
+	
+}
+
+.color h2{
+	margin-bottom:15px;
+	text-transform:uppercase;
+	font-size:1.0rem;
+}
+.color .red{
+	position:relative;
+	
+}
+
+.color .red:before{
+	content:'';
+	position:absolute;
+	top:3px;
+	left:-22px;
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	background-color:red;
+	
+}
+
+.color .Green{
+	position:relative;
+	
+}
+
+.color .Green:before{
+	content:'';
+	position:absolute;
+	top:3px;
+	left:-22px;
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	background-color:green;
+	
+}
+
+.color .Blue{
+	position:relative;
+	
+}
+
+.color .Blue:before{
+	content:'';
+	position:absolute;
+	top:3px;
+	left:-22px;
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	background-color:Blue;
+	
+}
+
+.color .Purple{
+	position:relative;
+	
+}
+
+.color .Purple:before{
+	content:'';
+	position:absolute;
+	top:3px;
+	left:-22px;
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	background-color:Purple;
+	
+}
+
+.shop-all-two-select ul{
+	list-style:none;
+	
+}
+
+.shop-all-two-select .ul-disp{
+	display:flex;
+	
+}
+
+.shop-all-two-select .sel_1{
+	margin:1px;
+	padding:15px;
+	background-color:#d9d9d9;
+	position:relative;
+	border-radius:5%;
+	transition:.5s ;
+	
+}	
+
+.shop-all-two-select .sel_2{
+	margin:1px;
+	padding:15px;
+	background-color:#d9d9d9;
+	position:relative;
+	border-radius:5%;
+	transition:.5s ;
+	
+}	
+
+.shop-all-two-select .sel_1:hover .nest-sel{
+	display: block;
+	
+}
+
+.shop-all-two-select .sel_2:hover .nest-sel{
+	display: block;
+	
+}
+
+.shop-all-two-select .sel_1:hover{
+	background-color:#626262;
+	box-shadow: 0px 7.5px 10px #7c628f;
+	transform: translateY(-7px);
+	
+}
+
+.shop-all-two-select .sel_2:hover{
+	background-color:#626262;
+	box-shadow: 0px 7.5px 10px #7c628f;
+	transform: translateY(-7px);
+	
+}
+
+.shop-all-two-select .sel_1:hover a{
+	color:white;
+	
+}
+
+.shop-all-two-select .sel_2:hover a{
+	color:white;
+	
+}
+
+.nest-sel{
+	width:225px;
+	background-color:white;
+	position:absolute;
+	top:50px;
+	left:0;
+	
+	
+}
+
+.shop-all-two-select li{
+	font-size:1.1rem;
+	padding-top:15px;
+	transition:.5s;
+}
+
+.nest-sel li:hover {
+	padding-left:20px;
+	
+}
+
+.shop-all-two-select .nest-sel{
+	padding:0 10px;
+	padding-bottom:15px;
+	display:none;
+	font-weight:600;
+	color:#383838;
+	
+}
+
+.sel_1 a{
+	text-decoration:none;
+	color:black;
+	font-weight:600;
+
+}
+
+.sel_2 a{
+	text-decoration:none;
+	color:black;
+	font-weight:600;
+
+}
+
+.small-lin{
+	height:2px;
+	background-color:#d8d8d8;
+	
+}
+
+.shop-text{
+	margin:30px 0;
+	
+}
+
+.hidden-scale{
+	overflow:hidden;
+	
+}
+
+.hidden-scale img:hover{
+	transform:scale(1.2 ,1.2);
+}
+
+.c-seprate-div{
+	width:330px;
+}

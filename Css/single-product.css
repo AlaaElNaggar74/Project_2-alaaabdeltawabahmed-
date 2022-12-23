@@ -1,0 +1,88 @@
+.e-seprate-div2{
+	text-align:left;
+	width:450px;
+	
+}
+
+.e-seprate-div2 h2{
+	color:black;
+	
+}
+
+.section-e-parent-div{
+	display:flex;
+	align-items:flex-start;
+	
+}
+
+.e-seprate-div2 button{
+    border:none;
+    outline:none;
+    padding:3% 5.8%;
+    font-size:1.18rem;
+    font-weight:700;
+    border:3px solid #716a6a;
+    border-radius:10%;
+    
+}
+
+.e-seprate-div2 input{
+	border:none;
+	outline:none;
+	width:20%;
+ 
+}
+
+.e-seprate-div2 form{
+	width:30%;
+	
+}
+
+.e-seprate-div2 .e-button{
+	margin:20px 0;
+	margin-top:50px;
+	width:30%;
+	
+}
+
+.e-lower-text .color-chxang {
+	color:#942cdd;
+	font-size:1.1rem;
+	
+}
+
+.rad {
+	margin-bottom:20px;
+	width:100%;
+	
+}
+
+.rad input{
+	border:none;
+	outline:none;
+	width:5%;
+  
+}
+
+.rad label{
+	font-size:.9rem;
+	font-weight:550;
+}
+
+
+
+.e-seprate-div2 input{
+	padding:7px 0;
+	padding-left:10px;
+	font-size:0.9rem;
+	font-weight:550;
+	border:1px solid ;
+	border-color:  #b9b9b9 transparent ; 
+	margin:0;
+	
+}
+
+
+
+
+

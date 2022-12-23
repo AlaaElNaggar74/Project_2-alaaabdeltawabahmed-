@@ -1,0 +1,79 @@
+.thanks-pag {
+	
+	font-size:1.1rem;
+	color:#b07ad5;
+	background-color:#f8f8f8;
+	font-weight:600;
+	padding:15px 10px;
+	
+	
+}
+
+.end-page-text span{
+	color:black;
+	
+}
+
+
+.home-contact-tex {
+	text-align:center;
+	margin:70px 0;
+}
+
+
+.home-contact-tex i{
+	font-size:3rem;
+	color: #3aac11;
+	margin:10px 0;
+	
+}
+
+.home-contact-tex h1{
+	font-size:4rem;
+	font-weight:500;
+	margin:10px 0;
+	
+}
+
+.home-contact-tex p{
+		font-size: ;
+		color:#b9b9b9;
+		margin:10px 0;
+	
+	
+}
+
+
+
+.home-contact-tex .button{
+  width: 170px;
+  height: 45px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  background-color: #7419B3;
+  border: none;
+  border-radius: 5%;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin:40px 0;
+  
+  }
+
+.home-contact-tex .button:hover {
+  background-color: #42026e;
+  box-shadow: 0px 7.5px 10px #7c628f;
+  color: #fff;
+  transform: translateY(-7px);
+  
+}
+
+
+
+
+
+
+
